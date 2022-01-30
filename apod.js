@@ -6,7 +6,7 @@ $("#submit").click(function () {
       success: function (apod) {
         $("#principal").css("display", "flex");
         $("#imageofday").attr("src", apod.url);
-        $("#textogiofday").text(apod.title);
+        $("#textoofday").text(apod.title);
         $("#explanation").text(apod.explanation);
       },
     });
