@@ -61,7 +61,7 @@ body {
    align-items: center;
    justify-content: center;
    margin-top: 50px;
-   
+   margin-bottom: 20px;
 
 }
 
@@ -109,4 +109,11 @@ img{
    font-size: 20px;
    color: white;
     
+}
+
+.titulo {
+
+   font-family: Roboto;
+   font-size: 30px;
+   color: white;
 }
